@@ -1,0 +1,9 @@
+document.getElementById("formContato").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    document.getElementById("msgEnviada").style.display = "block";
+
+    setTimeout(() => {
+        document.getElementById("msgEnviada").style.display = "none";
+    }, 3000);
+});
